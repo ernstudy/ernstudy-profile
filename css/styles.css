@@ -47,7 +47,6 @@ body {
 
 main {
   min-height: 120vh;
-  padding: 60px 0 40px;
 }
 
 .logo {
@@ -134,10 +133,6 @@ main {
 
 /* --------------- SECTION ---------------- */
 
-section {
-  padding: 30px 0 10px;
-}
-
 section .title {
   display: none;
   gap: 10px;
@@ -164,6 +159,9 @@ section .title i {
 
 /* --------------- ABOUT ME ---------------- */
 
+.about {
+  padding-top: 120px;
+}
 .about p {
   position: relative;
   padding: 10px;
@@ -190,6 +188,10 @@ section .title i {
 } */
 
 /* --------------- TECHNOLOGY ---------------- */
+
+.technology {
+  padding-top: 100px;
+}
 
 .skills-container {
   height: max-content;
@@ -334,6 +336,7 @@ section .title i {
 
 .projects {
   position: relative;
+  padding: 100px 0 50px;
 }
 .projects .tile {
   display: flex;
@@ -473,6 +476,10 @@ section .title i {
 
   section .title {
     display: flex;
+  }
+
+  .about {
+    padding-top: 50px;
   }
 }
 
